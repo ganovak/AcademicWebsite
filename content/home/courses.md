@@ -27,7 +27,8 @@ date_format = "Jan 2006"
   date_start = "2020-01-16"
   date_end = "2020-05-04"
   description = """
-  * Introduction to basic probability theory including counting, random variables and expectation, discrete and continuous distributions, independence, named distributions (with emphasis on binomial, normal, geometric, Poisson, and exponential)
+  * Introduction to basic probability theory including counting, random variables and expectation, discrete and continuous distributions, independence, named distributions (with emphasis on binomial, normal, and Poisson), and limit theorems
+  * Coursework included a mixture of application problems and mathematical proofs
   """
   
 [[item]]

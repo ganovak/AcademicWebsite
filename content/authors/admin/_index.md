@@ -15,8 +15,8 @@ superuser: true
 organizations:
 - name: University of Rochester
   url: ""
-- name: NASA's Biostatistics Labratory
-  url: ""
+# - name: NASA's Biostatistics Labratory
+#   url: ""
 - name: University of Texas School of Public Health
   url: ""
 
