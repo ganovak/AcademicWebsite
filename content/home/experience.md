@@ -19,12 +19,26 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "NASA Intern"
+  company = "Biostatistics Lab at Johnson Space Center, NASA"
+  company_url = "https://www.nasa.gov/content/biostatistics"
+  location = "Houston, TX"
+  date_start = "2020-06-01"
+  date_end = "2020-08-07"
+  description = """
+  * Articulated guidance on best practices for reproducible research for use by NASA's Biomedical Research and Environmental Sciences Division
+  * Developed a R package for internal NASA use to support reproducibility efforts
+  * Conducted thorough literature review on current best practices for reproducible research in government, academia, and industry
+  * Reviewed and provided recommendations on computational tools to support reproducible work
+  """
+
+[[experience]]
   title = "STT276 Teaching Assistant"
   company = "University of Rochester"
   company_url = ""
   location = "Rochester, NY"
   date_start = "2020-01-01"
-  date_end = ""
+  date_end = "2020-05-03"
   description = """
   * Strengthen students' grasp of material taught in lecture including R coding for data wrangling and table and figure creation using base functions and external libraries, as well as results presentation with R Markdown
   * Assisting students in understanding errors and debugging code both during lecture and additional office hours

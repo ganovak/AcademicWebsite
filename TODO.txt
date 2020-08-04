@@ -1,0 +1,6 @@
+
+* Add NASA
+* Update README
+* Add other projects
+* Update resume
+* Add LinkedIn
