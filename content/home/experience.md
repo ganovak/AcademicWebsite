@@ -29,7 +29,7 @@ date_format = "Jan 2006"
   * Articulated guidance on best practices for reproducible research for use by NASA's Biomedical Research and Environmental Sciences Division
   * Developed a R package for internal NASA use to support reproducibility efforts
   * Conducted thorough literature review on current best practices for reproducible research in government, academia, and industry
-  * Reviewed and provided recommendations on computational tools to support reproducible work
+  * Reviewed computational tools to support reproducible work and provided recommendations based on insight from Millennia Young, PhD regarding lab procedure and culture
   """
 
 [[experience]]
@@ -52,7 +52,7 @@ date_format = "Jan 2006"
   date_start = "2019-06-01"
   date_end = "2019-08-01"
   description = """
-  * Collaborated with Dr. Cici Bauer (Department of Biostatistics) and a team of graduate students on multiple geospatial analysis projects (Please see Projects, UT Health tag for further details)
+  * Collaborated with Cici Bauer, PhD (Department of Biostatistics) and a team of graduate students on multiple geospatial analysis projects (Please see Projects, UT Health tag for further details)
   * Carried out data processing, modeling, and figure creation including mapping
   * Compiled reports to present to team members as well as other UT Health faculty
   * Attended weekly work group meetings to present on project status and share techniques with other group members
