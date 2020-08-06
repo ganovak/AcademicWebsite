@@ -21,7 +21,7 @@ image:
 #  url: 
 #url_code: ""
 url_pdf: "files/abstract_nasa.pdf"
-url_slides: "files/exit_presentation_cs_nasa.html"
+url_slides: "files/exit_presentation_sc_nasa.html"
 #url_video: ""
 
 # Slides (optional).
