@@ -17,8 +17,8 @@ organizations:
   url: ""
 # - name: NASA's Biostatistics Labratory
 #   url: ""
-- name: University of Texas School of Public Health
-  url: ""
+# - name: University of Texas School of Public Health
+#   url: ""
 
 # Short bio (displayed in user profile at end of posts)
 
@@ -28,6 +28,15 @@ organizations:
 #   icon_pack: ai
 #   link: files/cv.pdf
 
+- icon: orcid
+  icon_pack: ai
+  link: "https://orcid.org/0000-0002-1674-9396"
+- icon: github
+  icon_pack: fab
+  link: "https://github.com/ganovak"
+
+
+
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
 
@@ -36,4 +45,4 @@ email: ""
 
 ---
 
-Gabby Novak is an undergraduate researcher studying statistics and computer science with particular interest in applications to public health.
+Gabby Novak is an undergraduate researcher studying statistics and computer science. She is a skilled programmer with experience in R development.
