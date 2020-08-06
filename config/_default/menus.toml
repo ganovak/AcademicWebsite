@@ -14,28 +14,31 @@
   weight = 30
 
 [[main]]
+  name = "Experience"
+  url = "#experience"
+  weight = 40
+
+[[main]]
+  name = "Talks"
+  url = "#talks"
+  weight = 50
+
+[[main]]
   name = "Coursework"
   url = "#courses"
-  weight = 40
+  weight = 60
 
 [[main]]
   name = "Certifications"
   url = "#certifications"
-  weight = 50
+  weight = 70
 
 [[main]]
   name = "Resume"
   url = "files/2020-08-06_resume.pdf"
-  weight = 60
+  weight = 80
 
 [[main]]
   name = "Contact"
   url = "#contact"
-  weight = 70
-
-# Link to a PDF of your resume/CV from the menu.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# [[main]]
-#    name = "CV"
-#    url = "files/cv.pdf"
-#    weight = 70
+  weight = 90
