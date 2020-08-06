@@ -45,7 +45,7 @@ education:
 interests:
 - R programming
 - Cooking
-- Technical Theater
+- Technical theater
 
 # Short bio (displayed in user profile at end of posts)
 # bio:
