@@ -1,19 +1,20 @@
 ---
-title: '"Can we run that again, just to be sure?" ... "I\'m sorry, we can\'t"'
+# title: '"Can we run that again, just to be sure?" ... "I\'m sorry, we can\'t"'
+title: Can we run it that again, just to be sure?
 subtitle: NASA Internship Exit Presentation
 event: NASA Biomedical Research and Environmental Sciences Division Intern Research Forum
 event_url: ""
 
 location: Virtual
-address:
-  street:
-  city:
-  region:
-  postcode:
-  country:
+# address:
+#   street:
+#   city:
+#   region:
+#   postcode:
+#   country:
 
 summary: An example talk using Academic's Markdown slides feature.
-abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
+# abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -49,7 +50,7 @@ url_slides: "files/exit_presentation_sc_nasa.html"
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: example
+# slides: example
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
