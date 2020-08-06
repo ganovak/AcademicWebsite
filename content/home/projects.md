@@ -24,18 +24,18 @@ subtitle = ""
   [[content.filter_button]]
      name = "All"
      tag = "*"
-
-  [[content.filter_button]]
-     name = "Geospatial Analysis"
-     tag = "Geospatial Analysis"
-     
-  [[content.filter_button]]
-     name = "Personal"
-     tag = "Personal"
      
   [[content.filter_button]]
      name = "R"
      tag = "R"
+     
+  [[content.filter_button]]
+     name = "NASA"
+     tag = "NASA"
+     
+  [[content.filter_button]]
+     name = "Personal"
+     tag = "Personal"
 
   [[content.filter_button]]
      name = "UT Health"
@@ -50,7 +50,7 @@ subtitle = ""
   #   2 = Compact
   #   3 = Card
   #   5 = Showcase
-  view = 3
+  view = 5
 
   # For Showcase view, flip alternate rows?
   flip_alt_rows = true
