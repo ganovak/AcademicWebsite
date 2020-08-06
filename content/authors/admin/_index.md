@@ -23,18 +23,28 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/ganovak
-
-# Short bio (displayed in user profile at end of posts)
-
+- icon: envelope
+  icon_pack: fab
+  link: #contact
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
 #   icon_pack: ai
 #   link: files/cv.pdf
 
+# Education
+education:
+  courses: 
+    - course: B.A. in Statistics
+      institution: University of Rochester, Rochester, NY
+      year: Anticipated 2022
+    - course: High School Diploma
+      institution: Emery/Weiner School, Houston, TX
+      year: 2018
 
-
-
+# interests:
+# Short bio (displayed in user profile at end of posts)
+# bio:
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
