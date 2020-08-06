@@ -16,6 +16,7 @@ organizations:
 - name: University of Rochester
   url: ""
 
+social:
 - icon: orcid
   icon_pack: fab
   link: https://orcid.org/0000-0002-1674-9396
