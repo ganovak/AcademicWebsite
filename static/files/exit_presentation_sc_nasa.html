@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>"Can we run it again, just to be sure?"</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Gabriella Novak University of Rochester, Program in Statistics" />
+    <style>
+	.remark-slide-content {
+  /*background-image: url("figs/blackboard.jpg");*/
+  color: #3B3B3B;
+  background-color: #FAFAFA;
+  border-top: 80px solid #3B3B3B;
+  border-bottom: 55px solid #3B3B3B;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 1.5;
+  padding: 1em 2em 1em 2em
+}
+
+h1 {
+  font-weight: normal;
+  margin-top: -95px; /*use -115px for font*/
+  margin-left: -00px;
+  color: #FAFAFA;
+}
+
+h2, h3, h4 {
+  padding-top: -15px;
+  padding-bottom: 00px;
+  color: #1A292C;
+  text-shadow: none;
+  font-weight: 400;
+  text-align: left;
+  margin-left: 00px;
+  margin-bottom: -10px;
+}
+
+.remark-slide-content h1 {
+  font-size: 45px;
+}
+
+.remark-slide-content h2 {
+  font-size: 35px;
+}
+
+.left-column {
+  color: #777;
+  width: 20%;
+  height: 92%;
+  float: left;
+}
+.left-column h2:last-of-type, .left-column h3:last-child {
+  color: #000;
+}
+.right-column {
+  width: 75%;
+  float: right;
+  padding-top: 1em;
+}
+.pull-left {
+  float: left;
+  width: 47%;
+}
+
+.left-column h2, .left-column h3, .left-column h4 {
+  color: #777;
+}
+
+.left-column h2:last-of-type, .left-column h3:last-child {
+  color: #1A292C;
+}
+
+.title-slide {
+  background-color: #3B3B3B;
+  border-top: 80px solid #3B3B3B;
+}
+
+.title-slide h1  {
+  color: #FAFAFA;
+  font-size: 40px;
+  text-shadow: none;
+  font-weight: 400;
+  text-align: left;
+  margin-left: 15px;
+  padding-top: 80px;
+}
+.title-slide h2  {
+  margin-top: -25px;
+  padding-bottom: -20px;
+  color: #FAFAFA;
+  text-shadow: none;
+  font-weight: 300;
+  font-size: 35px;
+  text-align: left;
+  margin-left: 15px;
+}
+.title-slide h3  {
+  color: #FAFAFA;
+  text-shadow: none;
+  font-weight: 300;
+  font-size: 25px;
+  text-align: left;
+  margin-left: 15px;
+  margin-bottom: -30px;
+}
+
+hr, .title-slide h2::after, .mline h1::after {
+  content: '';
+  display: block;
+  border: none;
+  background-color: #FAFAFA; /*#0B3D91 nasa blue*/
+  color: #FAFAFA;
+  height: 1px;
+}
+
+hr, .mline h1::after {
+  margin: 1em 15px 0 15px;
+}
+
+.title-slide h2::after {
+  margin: 10px 15px 35px 0;
+}
+
+.mline h1::after {
+  margin: 10px 15px 0 15px;
+}
+
+.remark-slide-number {
+  font-size: 13pt;
+  color: #FAFAFA;
+  opacity: 1;
+}
+
+.question {
+  color: #FAFAFA;
+  background-color: #3B3B3B;
+  padding: 1em 2em 1em 2em
+}
+
+.question h1 {
+  color: #FAFAFA;
+  font-size: 40px;
+  text-shadow: none;
+  font-weight: 400;
+  text-align: center;
+  margin-left: 15px;
+  padding-top: 80px;
+}
+
+/* turns off slide numbers for title page: https://github.com/gnab/remark/issues/298 */
+.title-slide .remark-slide-number {
+  display: none;
+}
+
+.footer {
+  color: #FAFAFA;
+  position: absolute;
+  bottom: 12px;
+  left: 85px;
+}
+
+.footer img {
+  position: absolute;
+  bottom: -10px;
+  left: -75px;
+  width:100px;
+  height:50px;
+}
+
+</style>
+  </head>
+  <body>
+    <textarea id="source">
+
+
+
+
+class: title-slide middle
+
+# "Can we run it again, just to be sure?"
+##"I'm sorry, we can't"
+### Gabriella Novak
+### University of Rochester, Program in Statistics
+### Biostatistics Lab, Johnson Space Center
+### Mentor: Millennia Young, PhD
+
+???
+Good afternoon, everyone. Thank you for being here today, taking time out of your schedules to hear us present.
+
+I'm Gabby Novak, I am an undergrad at the University of Rochester studying statistics and computer science. But for the summer, I am an intern in the Biostats lab.
+
+When I got sent home from school in March, I never expected that I would find myself working for NASA from my bedroom. In fact, I applied on a whim back in the fall under the then-unsubstantiated assumption that NASA must employ statisticians in some capacity but entirely unsure of their role and if they had any suitable projects for an undergrad intern. 
+
+As it turned out, such a project was available. My mentor, Millennia Young in the Biostats Lab has championed increasing reproducibility in SK Labs since her arrival. My task was to support these aims by developing guidance on best practices for reproducible research. Today I'm going to share with you some of the highlights of this material. The title of this presentation: "Can we run it again, just to be sure?"..."I'm sorry, we can't." personifies that central issue of irrepreducible research. 
+---
+class: hide-logo
+
+# "What is reproducible research?"
+&lt;div style = "font-size: 36px; position: fixed; top: 40%;"&gt;
+Results are reproducible when the computational data analysis processes used to generate them can be repeated with consistent input and yield consistent output.
+&lt;/div&gt;
+
+![:footer]
+
+???
+The word reproducibility gets thrown around a lot in scientific circles and can actually refer to a variety of concepts. Here, I am using it in its most common usage, computational reproducibility which is being able to re-run an analysis in its entirety on a different computer, without the expert knowledge of the person who initially preformed it. The goal is to be able re-trace the steps of the analysis so exactly from raw data to final results that not only are the general conclusions maintained, but the tables, plots, and values reported in-text are identical to any other time the analysis is run.
+---
+class: hide-logo
+# "Is that really necessary?"
+
+## Published journal articles retracted because:
+* "Inappropriate statistical analysis and inability to reproduce some of the results" [1]
+* Data "got terribly mixed" and "published results cannot be reproduced" [2]
+* Reanalysis for another purpose revealed that "data reported in this retracted paper were not analyzed properly" [3]
+* Concern that the data did not support the figures. Raw data "are not available to allow for a full evaluation of the concerns noted" [4]
+* "A calculation error" [5]
+* A spreadsheet merging error corrupted the analyzed data set [6]
+
+![:footer]
+
+???
+In recent years, irrepreducibility has become increasingly problematic for researchers when their published results cannot be verified. When results cannot be recreated, their reliability is immediately brought into question. Here are just a few examples of published work that has been recently retracted from scientific journals 
+
+due to improper analysis, inability to reproduce results, uncaught mistakes and errors. 
+These are exactly the sorts of issues that reproducibility techniques can help prevent.
+
+But you may still be thinking that such errors would never have been overlooked by a scrupulous researcher like yourself. 
+---
+class: hide-logo
+# "But that wouldn't happen to me."
+&lt;br&gt;
+* "Why did I omit those observations?"
+
+* "Where did I get that number from?"
+
+* "How did I make that figure?"
+
+* "Why do the results mentioned earlier in the paper differ from these?"
+
+* "I had incomplete data and now I have to start over again."
+
+* "There was an error so now I have to start over again."
+
+
+![:footer]
+
+???
+Perhaps so, but how many of these thoughts have you had throughout your career? 
+
+Why did I do that? 
+How did I do that? 
+Why are these results different?
+I have to start all over again
+
+Someone --maybe a colleague, a reviewer, another researcher looking to extend your work-- asks a question about your analysis and you can't remember the answer. It has been some time, the details escape you, and there is minimal or no documentation. 
+
+You are forced to start all over again. But maybe you can't. You find that the raw data is unavailable or not matter how you try, you just can't recreate the original results.
+
+The same situation may occur if you get sent updated data, or an error is identified.
+
+Would it not be better if there was documentation to refer to when questions arise? A process in which errors could be handled where they occur without throwing out uncorrupted work? Analysis that could be re-run with updated data at a keystroke? Results that were verifiable?
+---
+class: hide-logo
+
+# "I'm still unconvinced."
+&lt;br&gt;
+* Increase trust, prevent disaster
+
+![:footer]
+
+???
+Still unconvinced? Consider that this is what reproducibility is all about: verifiable results. Applying reproducibility techniques throughout the research process can help detect errors that may have otherwise fallen through the cracks, leading to inappropriate conclusions and endangering the reputation, funding, and suitability for publication of a research project. 
+---
+class: hide-logo
+
+# "I'm still unconvinced."
+&lt;br&gt;
+* Increase trust, prevent disaster
+
+* Save time and funds
+
+![:footer]
+
+???
+Redundant work is a waste of time and time is money. Time spent re-doing analysis or building computational tools that already exist is time not spent doing science. Reproducibility not only cuts down on re-doing previously completed tasks but encourages the availability and documentation of previously developed tools and data sets for effective and efficient reuse by the initial researcher and others.  
+---
+class: hide-logo
+
+# "I'm still unconvinced."
+&lt;br&gt;
+* Increase trust, prevent disaster
+
+* Save time and funds
+
+* Enable continuity and extension of work
+
+![:footer]
+
+???
+Quality documentation, a hallmark of reproducibility, prevents embarrassing and possibly detrimental knowledge loss and ensures that work can be understood in the absence of the original investigators. 
+---
+class: hide-logo
+
+# "I'm still unconvinced."
+&lt;br&gt;
+* Increase trust, prevent disaster
+
+* Save time and funds
+
+* Enable continuity and extension of work
+
+* Improve quality of scholarship
+
+![:footer]
+
+???
+Reproducibility techniques not only prevent errors and streamline the research process, but the expectation of a project being viewed by other researchers encourages more organized, justified, and scrupulous research practices.
+---
+class: hide-logo
+
+# "I'm still unconvinced."
+&lt;br&gt;
+* Increase trust, prevent disaster
+
+* Save time and funds
+
+* Enable continuity and extension of work
+
+* Improve quality of scholarship
+
+* Better communicate your work
+
+![:footer]
+
+???
+The documentation required by reproducible research helps researchers to articulate information about their project and can be used as communication aids when discussing the work with supervisors and funding agencies.
+---
+class: hide-logo
+
+# "I'm still unconvinced."
+&lt;br&gt;
+* Increase trust, prevent disaster
+
+* Save time and funds
+
+* Enable continuity and extension of work
+
+* Improve quality of scholarship
+
+* Better communicate your work
+
+* Ease drafting and publishing
+
+![:footer]
+
+???
+When it comes time to draft a manuscript, information is centralized and available: simplifying the writing and ensuring the ability to meet even the strictest journal standards. Reviewers have convincing evidence of quality of work and their increased ability to understand the work places them in a position to provide more constructive feedback than would otherwise be possible.
+---
+layout: true
+class: hide-logo
+
+# "What can I do?"
+.left-column[
+## Stop flirting with danger
+]
+
+![:footer]
+---
+.right-column[
+
+* Data manipulation and analysis in spreadsheet or other graphic-based softwares
+]
+
+???
+So you've accepted the merits of reproducible research. What now? What steps can you take? Most importantly, avoid the hidden dangers that put your project at a high risk for irreproducibility.
+
+Any data manipulation, calculations, statistical methods, or figure creation that takes place within a graphic-based software like MS Excel is effectively undocumented. 
+
+There is no way to see what has been done or to go back and modify steps that have already been taking across many work sessions. Specifically, errors in spreadsheets involving formulas are common, difficult to detect, and may alter outcomes significantly. 
+
+Just to be clear, I am not denouncing using Excel or whatever program for _any_ purpose. Spreadsheets are very useful for data collection. But they are highly problematic for analysis. 
+---
+.right-column[
+
+* Data manipulation and analysis in spreadsheet or other graphic-based softwares
+
+* Copy-and-paste
+]
+
+???
+Second culprit: copy a paste, a great opportunity for human error.
+
+When you copy and paste something you, quite fairly, assume that it is identical to the original. But what if you inadvertently select the wrong area? What if you accidentally duplicate data? Both could drastically affect conclusions. 
+
+Maybe you intend to modify the copy so it differs from the original. But what if you fail to update it completely so it not longer appears or works as intended? 
+
+Or if you are copying and pasting results or displays from one software to another, there is no assurance that they are the most up to date. This can lead to inconsistencies between reported results.  
+---
+layout: false
+layout: true
+class: hide-logo
+
+# "What can I do?"
+.left-column[
+&lt;h2&gt;Stop flirting with danger&lt;/h2&gt;
+&lt;h2&gt;Organize&lt;/h2&gt;
+]
+
+![:footer]
+---
+.right-column[
+
+* Centralize your project files and organize them for clarity and portability
+]
+
+???
+Next: organize your project
+
+Files scattered across multiple locations invites lost files and makes sharing the project nearly impossible. Centralize your files in a single directory and organize and name them in a way that makes their contents clear. No one should have to open a file or run a script to see what it contains. 
+
+Be sure that the contents of your files can be successfully migrated between machines and operate the same way in each location.
+---
+.right-column[
+
+* Centralize your project files and organize them for clarity and portability
+
+* Maintain back-ups and keep them up-to-date
+]
+
+???
+Any attempts made towards reproducibility will be for naught if files are lost to hard-drive failure, disk damage, overwriting, or misplacement. Files should be backed up, with at least one copy stored off-site. While cloud or network storage does qualify as off-site, a local copy should be available if possible for working offline.
+---
+layout: false
+layout: true
+class: hide-logo
+
+# "What can I do?"
+.left-column[
+&lt;h2&gt;Stop flirting with danger&lt;/h2&gt;
+&lt;h2&gt;Organize&lt;/h2&gt;
+&lt;h2&gt;Document&lt;/h2&gt;
+]
+
+![:footer]
+---
+.right-column[
+* Carry out all data interaction in code recorded in a script
+]
+
+???
+Next, documentation which is vital for facilitating knowledge transfer in a way that avoids the possible redundancies, inconsistancies, or inaccuracies of individual communication.
+
+Code is simply an executable record of steps taken to analyze data. It can be referenced at any time to see exactly what has been done and can be modified and rerun without loss of progress.
+---
+.right-column[
+
+* Carry out all data interaction in code recorded in a script
+
+* Document how to execute this code and its intentions
+]
+
+???
+Code without context can be rendered useless by circumstances. It is important to leave instructions for anyone looking to use project files on execution order, software and hardware requirements, and the intended purpose of code.
+
+Everything that is left to guesswork is something that go wrong, at best forcing the possibly time consuming process of recreating the information or at worst causing errors or rendering the files unusable.
+---
+.right-column[
+
+* Carry out all data interaction in code recorded in a script
+
+* Document how to execute this code and its intentions
+
+* Record the computational environment the code is meant to operate in
+]
+
+???
+Software and hardware differences between machines like software versions or configurations, or even changes made to a single machine over time, can cause code to behave differently or throw new errors. At the very least the expected environment needs to be recorded. Tools exist for automating this documentation and preserving computational environments.
+---
+layout: false
+class: hide-logo
+
+# "What can I do?"
+.left-column[
+&lt;h2&gt;Stop flirting with danger&lt;/h2&gt;
+&lt;h2&gt;Organize&lt;/h2&gt;
+&lt;h2&gt;Document&lt;/h2&gt;
+&lt;h2&gt;Automate&lt;/h2&gt;
+]
+
+.right-column[
+* Use automatic processes whenever possible
+]
+
+![:footer]
+
+???
+Finally, automate your work.
+
+Not all processes can be automated, some require human input or decision making to be carried out effectively. However, given the choice between a manual and an automatic process with the same outcome, choose the automatic one. This ensures that the task is completed in the same way each time with little to no time or effort input. This alleviates burdens of repeated time-investment or accidental alteration of the process yielding different results.
+---
+class: hide-logo
+
+# Acknowledgements
+
+* Millennia Young, PhD, Biostatistics Lab Lead, NASA
+
+* Remainder of the Biostatistics Lab
+  * Alan Feiveson, PhD, retiring Biostatistics Lab Lead, NASA
+  * Nate Mercaldo, PhD, Biostatistician, KBR
+  * Sarah Mercaldo, PhD, LSAH Biostatistician, KBR
+
+* Influential professors and mentors from my university
+  * Katherine Grzesik, PhD, Assistant Professor, University of Rochester
+  * Joe Ciminelli, PhD, Assistant Professor and Director of the Program in Statistics, University of Rochester
+
+![:footer]
+
+???
+That is a brief overview of reproducible research but it has barely scratched the surface of the available techniques and tools that can assist researchers in reaping the benefits of reproducibility. 
+
+The guidance I developed during my time as an intern is available in report-form from the Biostats Lab and contains much more detailed information than I could cover here today. 
+
+Before I take questions, I would like to take a moment to express my gratitude to my mentor, Millennia Young and her team in the Biostats lab for their assistance, support, and guidance throughout my internship. 
+
+I would Additionally, I would like to acknowledge two of my professors, Katherine Grzesik and Joe Ciminelli, who steered me in the direction of this internship and provide me with constant encouragement and advice as I progress through my academic career.  
+---
+class: question middle
+
+# Questions?
+
+???
+Now, if there are any questions, I would love hear them.
+---
+class: hide-logo
+# References
+
+[1] Z. Wei, M. Yao, Y. Li, et al. "Retraction Note to: Inhibition of
+Lipopolysaccharide (LPS)-Induced Inflammatory Responses by Selenium in
+Bovine Mammary Epithelial Cells in Primary Culture". In: _Inflammation_
+38.4 (Aug. 2015), pp. 1662-1662. ISSN: 1573-2576. DOI:
+[10.1007/s10753-015-0142-0](https://doi.org/10.1007%2Fs10753-015-0142-0).
+URL:
+[https://doi.org/10.1007/s10753-015-0142-0](https://doi.org/10.1007/s10753-015-0142-0).
+
+[2] R. Chakrabarti, H. Topf, and M. Schroth. "Retraction Note to: Low
+Dose Lidocaine for Refractory Seizures in Preterm Neonates". In: _The
+Indian Journal of Pediatrics_ 80.6 (Jun. 2013), pp. 529-529. ISSN:
+0973-7693. DOI:
+[10.1007/s12098-013-0968-0](https://doi.org/10.1007%2Fs12098-013-0968-0).
+URL:
+[https://doi.org/10.1007/s12098-013-0968-0](https://doi.org/10.1007/s12098-013-0968-0).
+![:footer]
+---
+class: hide-logo
+# References cont.
+
+[3] "NOTICE OF RETRACTION: 'The Emergence of Orthographic Word
+Representations in the Brain: Evaluating a Neural Shape-Based Framework
+Using fMRI and the HMAX Model' by Wouter Braet, Jonas Kubilius, Johan
+Wagemans and Hans P. Op de Beeck. doi:10.1093/Cercor/bhs355, published
+online November 16, 2012". In: _Cerebral Cortex_ 23.8 (Nov. 2012), pp.
+2015-2015. ISSN: 1047-3211. DOI:
+[10.1093/cercor/bhs355](https://doi.org/10.1093%2Fcercor%2Fbhs355).
+eprint:
+https://academic.oup.com/cercor/article-pdf/23/8/2015/1018733/bhs355.pdf.
+URL:
+[https://doi.org/10.1093/cercor/bhs355](https://doi.org/10.1093/cercor/bhs355).
+![:footer]
+---
+class: hide-logo
+# References cont.
+
+[4] D. Lee, K. H. Lee, H. Park, et al. "Retraction: The Effect of
+Soluble RAGE on Inhibition of Angiotensin II-Mediated Atherosclerosis
+in Apolipoprotein E Deficient Mice". In: _PLOS ONE_ 9.9 (Sep. 2014).
+Publisher: Public Library of Science, p. e108684. DOI:
+[10.1371/journal.pone.0108684](https://doi.org/10.1371%2Fjournal.pone.0108684).
+URL:
+[https://doi.org/10.1371/journal.pone.0108684](https://doi.org/10.1371/journal.pone.0108684).
+
+[5] M. Lind, L. A. Garcia-Rodriguez, G. L. Booth, et al. "RETRACTED
+ARTICLE: Mortality trends in patients with and without diabetes in
+Ontario, Canada and the UK from 1996 to 2009: a population-based
+study". In: _Diabetologia_ 56.12 (Dec. 2013), pp. 2765-2765. ISSN:
+1432-0428. DOI:
+[10.1007/s00125-013-2949-2](https://doi.org/10.1007%2Fs00125-013-2949-2).
+URL:
+[https://doi.org/10.1007/s00125-013-2949-2](https://doi.org/10.1007/s00125-013-2949-2).
+![:footer]
+---
+class: hide-logo
+# References cont.
+
+[6] S. Kern, I. Skoog, A. B&oumlrjesson-Hanson, et al. "Retraction notice
+to "Lower CSF interleukin-6 predicts future depression in a
+population-based sample of older women followed for 17 years" [Brain
+Behav. Immun. 32 (2013) 153-158]". In: _Brain, Behavior, and Immunity_
+36 (Feb. 2014), p. 216. ISSN: 0889-1591. DOI:
+[10.1016/j.bbi.2013.11.011](https://doi.org/10.1016%2Fj.bbi.2013.11.011).
+URL:
+[http://www.sciencedirect.com/science/article/pii/S0889159113005424](http://www.sciencedirect.com/science/article/pii/S0889159113005424).
+![:footer]
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>
+remark.macros.footer = function() {
+  return '<div class="footer"><img src = "https://www.nasa.gov/sites/default/files/thumbnails/image/nasa-logo-web-rgb.png" alt = "NASA Insignia">"Can we run it again, just to be sure?"..."I\'m sorry, we can\'t"</div>';
+};
+</script>
+<script>var slideshow = remark.create();
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();</script>
+<!-- source: https://www.garrickadenbuie.com/blog/xaringan-tip-logo-all-slides/ -->
+<style>
+.logo {
+  background-image: url('https://www.nasa.gov/sites/default/files/thumbnails/image/nasa-logo-web-rgb.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 1em;
+  right: 0em;
+  width: 300px;
+  height: 300px;
+  z-index: 0;
+}
+</style>
+
+<script>
+document
+  .querySelectorAll(
+    '.remark-slide-content' +
+    ':not(.hide-logo)'
+    //':not(.title-slide)' +
+    // add additional classes to exclude here, e.g.
+    // ':not(.inverse)' +
+  )
+  .forEach(el => {
+    el.innerHTML += '<div class="logo"></div>';
+  });
+</script>
+
+  </body>
+</html>
