@@ -15,6 +15,12 @@ superuser: true
 organizations:
 - name: University of Rochester
   url: ""
+- icon: orcid
+  icon_pack: ai
+  url: "https://orcid.org/0000-0002-1674-9396"
+- icon: github
+  icon_pack: fab
+  url: "https://github.com/ganovak"
 # - name: NASA's Biostatistics Labratory
 #   url: ""
 # - name: University of Texas School of Public Health
@@ -28,12 +34,7 @@ organizations:
 #   icon_pack: ai
 #   link: files/cv.pdf
 
-- icon: orcid
-  icon_pack: ai
-  link: "https://orcid.org/0000-0002-1674-9396"
-- icon: github
-  icon_pack: fab
-  link: "https://github.com/ganovak"
+
 
 
 
