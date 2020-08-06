@@ -1,6 +1,5 @@
 ---
-# title: '"Can we run that again, just to be sure?" ... "I\'m sorry, we can\'t"'
-title: \"Can we run it that again, just to be sure?\" ... \"I\'m sorry, we can\'t.\"
+title: '"Can we run it that again, just to be sure?" ... "I\'m sorry, we can\'t."'
 subtitle: NASA Internship Exit Presentation
 event: NASA Biomedical Research and Environmental Sciences Division Intern Research Forum
 event_url: ""
@@ -18,9 +17,9 @@ summary: A brief overview of motivations and strategies for increasing reproduci
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2020-07-31T21:00:00Z"
-date_end: "2020-07-31T21:15:00Z"
-# date: "2020-07-31T13:00:00Z"
+date: "2020-07-31T16:00:00Z"
+date_end: "2020-07-31T16:15:00Z"
+# date: "2020-07-31T16:00:00Z"
 # date_end: "2020-07-31T15:00:00Z"
 all_day: false
 
