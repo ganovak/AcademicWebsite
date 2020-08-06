@@ -1,6 +1,6 @@
 ---
 title: Defining Best Practices for Reproducible Research
-summary: Predictive spatial analysis of zip code-level opioid-related death rates in Massachusetts, USA
+summary: Recommendations for practices and tools (including a novel R package) for increasing reproducibility at Johnson Space Center's Biomedical Research and Environmental Sciences Division labs 
 tags:
  - NASA
  - R
@@ -32,4 +32,10 @@ url_slides: "files/exit_presentation_sc_nasa.html"
 slides: ""
 ---
 
-# Content
+# Defining Best Practices for Reproducibility
+
+I synthesized the standards and guidance from a thorough literature review on the subject into a two-part report. The first contains software environment agnostic recommendations for strategies to increase reproducibility. The second extends this guidance by providing specific implementations for R and RStudio users leveraging R's standard library, a suite of extension packages and integrated softwares, and novel code. 
+
+# Supporting Reproducibility
+
+I developed `SKReproTools`, a R package for internal NASA use designed to combine existing R packages with novel code to produce a user-friendly reproducible workflow while abstracting away technical minutiae. The package is fully documented and includes a tutorial vignette highlighting its capabilities through a minimal reproducible project. Particularly exciting functionality includes extracting in-source documentation, package management and version control integration, execution order handling, and bundling capabilities for transportation or storage.
