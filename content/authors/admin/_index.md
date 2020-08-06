@@ -24,8 +24,8 @@ social:
   icon_pack: fab
   link: https://github.com/ganovak
 - icon: envelope
-  icon_pack: fab
-  link: #contact
+  icon_pack: fas
+  link: "#contact"
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -42,7 +42,11 @@ education:
       institution: Emery/Weiner School, Houston, TX
       year: 2018
 
-# interests:
+interests:
+- R programming
+- Cooking
+- Technical Theater
+
 # Short bio (displayed in user profile at end of posts)
 # bio:
 
