@@ -15,16 +15,13 @@ superuser: true
 organizations:
 - name: University of Rochester
   url: ""
+
 - icon: orcid
-  icon_pack: ai
-  url: "https://orcid.org/0000-0002-1674-9396"
+  icon_pack: fab
+  link: https://orcid.org/0000-0002-1674-9396
 - icon: github
   icon_pack: fab
-  url: "https://github.com/ganovak"
-# - name: NASA's Biostatistics Labratory
-#   url: ""
-# - name: University of Texas School of Public Health
-#   url: ""
+  link: https://github.com/ganovak
 
 # Short bio (displayed in user profile at end of posts)
 
