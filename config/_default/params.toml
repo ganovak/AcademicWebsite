@@ -104,10 +104,7 @@ appointment_url = ""
 
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
-contact_links = [
-  {icon = "orcid", icon_pack = "fab", name = "", link = "https://orcid.org/0000-0002-1674-9396"},
-  {icon = "github", icon_pack = "fab", name = "", link = "https://github.com/ganovak"}
-  ]
+contact_links = []
 
   #{icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/Twitter"},
   #{icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:echo123?call"},

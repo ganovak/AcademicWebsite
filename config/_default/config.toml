@@ -77,3 +77,13 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   category = "categories"
   publication_type = "publication_types"
   author = "authors"
+
+[params.social]
+  icon = "orcid"
+  icon_pack = "fab"
+  url: "https://orcid.org/0000-0002-1674-9396"
+
+[params.social]
+  icon: "github"
+  icon_pack: "fab"
+  url: "https://github.com/ganovak"
