@@ -1,5 +1,5 @@
 ---
-title: Can we run it that again, just to be sure? ... I'm sorry, we can't.
+title: Can we run it again, just to be sure? ... I'm sorry, we can't.
 subtitle: NASA Internship Exit Presentation
 event: NASA Biomedical Research and Environmental Sciences Division Intern Research Forum
 event_url: ""
