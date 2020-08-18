@@ -31,14 +31,10 @@ subtitle = ""
   [[content.filter_button]]
      name = "Computer Science"
      tag = "compsci"
-     
-  [[content.filter_button]]
-     name = "Data Science"
-     tag = "datasci"
-  
-  [[content.filter_button]]
-     name = "Other"
-     tag = "other"
+
+  # [[content.filter_button]]
+  #    name = "Data Science"
+  #    tag = "datasci"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
