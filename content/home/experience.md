@@ -19,18 +19,6 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
-  title = "Statistics Teaching Assistant"
-  company = "University of Rochester"
-  company_url = ""
-  location = "Rochester, NY"
-  date_start = "2019-01-01"
-  date_end = ""
-  description = """
-  * Strengthen students’ grasp of material taught in lecture including R coding and applied statistical methods
-  * Assist students in understanding errors and debugging code during lecture and additional office hours
-  """
-  
-[[experience]]
   title = "Event Support Senior Technician"
   company = "University of Rochester"
   company_url = ""
@@ -43,6 +31,18 @@ date_format = "Jan 2006"
   * Lead other technicians in equipment and furniture set up and strike
   * Manage technical difficulties and client requests effectively and efficiently
   * Completed advanced lighting training
+  """
+
+[[experience]]
+  title = "Statistics Teaching Assistant"
+  company = "University of Rochester"
+  company_url = ""
+  location = "Rochester, NY"
+  date_start = "2019-01-01"
+  date_end = ""
+  description = """
+  * Strengthen students’ grasp of material taught in lecture including R coding and applied statistical methods
+  * Assist students in understanding errors and debugging code during lecture and additional office hours
   """
 
 [[experience]]
