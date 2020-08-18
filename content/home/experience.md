@@ -19,6 +19,33 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "Statistics Teaching Assistant"
+  company = "University of Rochester"
+  company_url = ""
+  location = "Rochester, NY"
+  date_start = "2019-01-01"
+  date_end = ""
+  description = """
+  * Strengthen students’ grasp of material taught in lecture including R coding and applied statistical methods
+  * Assist students in understanding errors and debugging code during lecture and additional office hours
+  """
+  
+[[experience]]
+  title = "Event Support Senior Technician"
+  company = "University of Rochester"
+  company_url = ""
+  location = "Rochester, NY"
+  date_start = "2019-04-01"
+  date_end = ""
+  description = """
+  * Operate all technical aspects of university events including concerts, productions, ceremonies and presentations with special expertise in lighting
+  * Plan and program aesthetically pleasing lighting in collaboration with clients that compliments their production 
+  * Lead other technicians in equipment and furniture set up and strike
+  * Manage technical difficulties and client requests effectively and efficiently
+  * Completed advanced lighting training
+  """
+
+[[experience]]
   title = "NASA Intern"
   company = "Biostatistics Lab at Johnson Space Center, NASA"
   company_url = "https://www.nasa.gov/content/biostatistics"
@@ -49,21 +76,6 @@ date_format = "Jan 2006"
   """
 
 [[experience]]
-  title = "Event Support Senior Technician"
-  company = "University of Rochester"
-  company_url = ""
-  location = "Rochester, NY"
-  date_start = "2019-04-01"
-  date_end = ""
-  description = """
-  * Operate all technical aspects of university events including concerts, productions, ceremonies and presentations with special expertise in lighting
-  * Plan and program aesthetically pleasing lighting in collaboration with clients that compliments their production 
-  * Lead other technicians in equipment and furniture set up and strike
-  * Manage technical difficulties and client requests effectively and efficiently
-  * Completed advanced lighting training
-  """
-  
-[[experience]]
   title = "Private Statistics Tutor"
   company = " "
   company_url = ""
@@ -73,18 +85,6 @@ date_format = "Jan 2006"
   description = """
   * Developed and implemented lesson plans to assist a student in-poor-standing in successful final exam preparation
   * Recommended for position by professor based on past success with students as a teaching assistant
-  """
-  
-[[experience]]
-  title = "Statistics Teaching Assistant"
-  company = "University of Rochester"
-  company_url = ""
-  location = "Rochester, NY"
-  date_start = "2019-01-01"
-  date_end = ""
-  description = """
-  * Strengthen students’ grasp of material taught in lecture including R coding and applied statistical methods
-  * Assist students in understanding errors and debugging code during lecture and additional office hours
   """
 
 [[experience]]
