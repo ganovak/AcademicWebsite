@@ -1,6 +1,8 @@
 
-* Add NASA
 * Update README
 * Add other projects
-* Update resume
 * Add LinkedIn
+
+COMMON TASKS
+* Update Resume: Place in static/files and change in config/_default/menus.toml
+* Update Bio: content/authors/admin/_index.md

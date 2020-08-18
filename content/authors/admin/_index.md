@@ -35,17 +35,14 @@ social:
 # Education
 education:
   courses: 
-    - course: B.A. in Statistics
+    - course: B.A. in Statistics, Minor in Computer Science
       institution: University of Rochester, Rochester, NY
       year: Anticipated 2022
-    - course: High School Diploma
-      institution: Emery/Weiner School, Houston, TX
-      year: 2018
 
-interests:
-- R programming
-- Cooking
-- Technical theater
+# interests:
+# - R programming
+# - Cooking
+# - Technical theater
 
 # Short bio (displayed in user profile at end of posts)
 # bio:
@@ -58,4 +55,4 @@ email: ""
 
 ---
 
-Gabby Novak is an undergraduate researcher studying statistics and computer science. She is a skilled programmer with experience in R development.
+Gabby Novak is an undergraduate researcher studying statistics, data science, and computer science. She is a skilled programmer with experience in R development.
