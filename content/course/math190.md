@@ -1,10 +1,10 @@
 ---
-title: Statistical Computing in R (STT276)
-summary: "<strong>Project Highlight</strong>: Prepared a full dynamic report in RMarkdown including exploratory analysis and hypothesis generation and confirmation on data from ride-share programs in Chicago.</br><strong>Content</strong>: Introduction to statistical computing with R in the RStudio environment including integrated R Markdown reports. Focused on function writing and data manipulation and graphics building with tidyverse functions."
-date: "2019-01-01T00:00:00Z"
+title: Topics in Problem Solving (MATH190)
+summary: "<strong>Content</strong>: Seminar on techniques and strategies for nonstandard mathematical problem solving and proof writing with an emphasis on algebraic fundamentals."
+date: "2020-01-01T00:00:00Z"
 tags:
- - DataSci
- 
+ - AddSki
+
 # Optional external URL for project (replaces project detail page).
 external_link: ""
 

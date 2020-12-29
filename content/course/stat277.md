@@ -1,6 +1,6 @@
 ---
-title: Statistical Computing in R (STT276)
-summary: "<strong>Project Highlight</strong>: Prepared a full dynamic report in RMarkdown including exploratory analysis and hypothesis generation and confirmation on data from ride-share programs in Chicago.</br><strong>Content</strong>: Introduction to statistical computing with R in the RStudio environment including integrated R Markdown reports. Focused on function writing and data manipulation and graphics building with tidyverse functions."
+title: Introduction to Statistical Software I (STT277)
+summary: "<strong>Project Highlight</strong>: Examined the relationship between median household income and concentration of permanent public art installations in Seattle, Washington through geospatial mapping and contingency tables.</br><strong>Content</strong>: Introduction to data manipulation, graphics, and modelling in R, SAS, and JMP. Discussed philosophy and implementation of exploratory data analysis with univariate, bivariate, and multivariate methods in each software."
 date: "2019-01-01T00:00:00Z"
 tags:
  - DataSci
