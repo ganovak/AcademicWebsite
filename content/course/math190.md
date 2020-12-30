@@ -1,7 +1,7 @@
 ---
 title: Topics in Problem Solving (MATH190)
 summary: "<strong>Content</strong>: Seminar on techniques and strategies for nonstandard mathematical problem solving and proof writing with an emphasis on algebraic fundamentals."
-date: "2020-01-01T00:00:00Z"
+date: "2020-08-01T00:00:00Z"
 tags:
  - AddSki
 

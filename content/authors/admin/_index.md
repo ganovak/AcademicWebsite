@@ -35,7 +35,7 @@ social:
 # Education
 education:
   courses: 
-    - course: B.A. in Statistics, Minor in Computer Science
+    - course: B.S. in Statistics, Minor in Computer Science
       institution: University of Rochester, Rochester, NY
       year: Anticipated 2022
 
