@@ -1,7 +1,7 @@
 ---
 title: Introduction to Statistical Software I (STT277)
 summary: "<strong>Project Highlight</strong>: Examined the relationship between median household income and concentration of permanent public art installations in Seattle, Washington through geospatial mapping and contingency tables.</br><strong>Content</strong>: Introduction to data manipulation, graphics, and modelling in R, SAS, and JMP. Discussed philosophy and implementation of exploratory data analysis with univariate, bivariate, and multivariate methods in each software."
-date: "2019-01-01T00:00:00Z"
+date: "2020-08-01T00:00:00Z"
 tags:
  - DataSci
  
