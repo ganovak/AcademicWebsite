@@ -29,7 +29,7 @@ subtitle = ""
      tag = "Stats"
   
   [[content.filter_button]]
-     name = "Data Science & Statistical Computing"
+     name = "Data Science"
      tag = "DataSci"
      
   [[content.filter_button]]

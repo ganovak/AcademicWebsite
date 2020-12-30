@@ -26,6 +26,7 @@ date_format = "Jan 2006"
   date_start = "2019-04-01"
   date_end = ""
   description = """
+  * Pivot to operating and troubleshooting installed audio-visual technology for asynchronous and synchronous remote learning during COVID-19 pandemic
   * Operate all technical aspects of university events including concerts, productions, ceremonies and presentations with special expertise in lighting
   * Plan and program aesthetically pleasing lighting in collaboration with clients that compliments their production 
   * Lead other technicians in equipment and furniture set up and strike
