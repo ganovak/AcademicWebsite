@@ -1,6 +1,6 @@
 ---
 title: Introduction to Mathematical Statistics (MATH/STAT203)
-summary: "<strong>Project Highlight</strong>: Fit a distribution, estimated parameters, and preformed goodness of fit tests for COVID-19 death rates in Seattle, Washington and compared results to those from New York City in a group of four.</br><strong>Content</strong>: Calculus-based reexamination of statistical estimation and inference including derivations of discrete and continuous probability distributions and their properties, model fitting and maximum likelihood parameter estimation, and the theoretical basis for hypothesis testing and regression."
+summary: "<strong>Project Highlight</strong>: Fit a distribution, estimated parameters, and performed goodness of fit tests for COVID-19 death rates in Seattle, Washington and compared results to those from New York City in a group of four.</br><strong>Content</strong>: Calculus-based reexamination of statistical estimation and inference including derivations of discrete and continuous probability distributions and their properties, model fitting and maximum likelihood parameter estimation, and the theoretical basis for hypothesis testing and regression."
 date: "2020-08-01T00:00:00Z"
 tags:
  - Stats
