@@ -1,10 +1,10 @@
 ---
-title: Applied Statistical Methods I (STT216)
-summary: "<strong>Project Highlight</strong>: Wrote a full statistical analysis on the accuracy of temperature prediction by climate zone and length of forecast in R.</br><strong>Content</strong>: Continuation of introductory course focusing on non-parametric testing, ANOVA models, multiple comparisons, multiple linear regression, and binary logistic regression. Taught in Minitab."
-date: "2019-01-01T00:00:00Z"
+title: Tools for Data Science (DSCC201)
+summary: "<strong>Content</strong>: Introduction to commonly used tools, hardware, and infrastructure in data science through hands-on labs using the BlueHive Linux cluster to explore the Linux environment and Bash scripting; source code management; cluster and parallel computing with pthreads, OpenMP, MPI, and Spark; and statistical analysis, visualization, and machine learning with R, SAS, and Python."
+date: "2021-01-01T00:00:00Z"
 tags:
- - Stats
- 
+ - DataSci
+
 # Optional external URL for project (replaces project detail page).
 external_link: ""
 

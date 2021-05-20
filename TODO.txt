@@ -2,7 +2,6 @@
 * Update README
 * Add other projects
 * Add LinkedIn
-* stat203
 
 COMMON TASKS
 * Update Resume: Place in static/files and change in config/_default/menus.toml
