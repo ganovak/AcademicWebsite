@@ -1,7 +1,7 @@
 ---
 title: 	Introduction to Linear Models (STAT226W)
 summary: "Description will be included upon completion of the course in May 2022."
-date: "2022-01-12T00:00:00Z"
+date: "2022-01-01T00:00:00Z"
 tags:
  - Stats
 
