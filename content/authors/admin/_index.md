@@ -39,10 +39,10 @@ education:
       institution: University of Rochester, Rochester, NY
       year: Anticipated 2022
 
-interests:
- - R programming
- - Cooking
- - Technical theater
+#interests:
+# - R programming
+# - Cooking
+# - Technical theater
 
 # Short bio (displayed in user profile at end of posts)
 # bio:
