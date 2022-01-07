@@ -109,6 +109,5 @@ date_format = "Jan 2006"
   * Planned and led first and second graders in daily jewelry making activities, adapting plans in real time according to the skill
 level of individual groups
   * Assisted with daily activities including art, science, and sports and entertained campers between scheduled activities
-
   """
 +++
