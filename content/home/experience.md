@@ -26,12 +26,10 @@ date_format = "Jan 2006"
   date_start = "2019-04-01"
   date_end = ""
   description = """
-  * Pivot to operating and troubleshooting installed audio-visual technology for asynchronous and synchronous remote learning during COVID-19 pandemic
-  * Operate all technical aspects of university events including concerts, productions, ceremonies and presentations with special expertise in lighting
-  * Plan and program aesthetically pleasing lighting in collaboration with clients that compliments their production 
-  * Lead other technicians in equipment and furniture set up and strike
+  * Operate all technical aspects of university events with special expertise in lighting
+  * Plan and program aesthetically pleasing lighting in collaboration with clients that compliments their production
+  * Lead and provide training to technicians in equipment set up, strike, and use and client interaction
   * Manage technical difficulties and client requests effectively and efficiently
-  * Completed advanced lighting training
   """
 
 [[experience]]
@@ -56,7 +54,6 @@ date_format = "Jan 2006"
   description = """
   * Articulated guidance on best practices for reproducible research for distribution throughout NASA's Biomedical Research and Environmental Sciences Division
   * Developed a R package for internal NASA use to support reproducibility efforts
-  * Conducted thorough literature review on current best practices for reproducible research in government, academia, and industry
   * Reviewed computational tools to support reproducible work and provided recommendations based on insight from Millennia Young, PhD regarding lab procedure and culture
   
 *See [NASA Tag](#projects) for futher project details*
@@ -99,5 +96,19 @@ date_format = "Jan 2006"
   * Operated sound, lighting, and projection equipment during concerts and other special events and presentations
   * Planned and executed equipment and furniture set up and strike
   * Completed basic technical training and continued training on updated equipment
+  """
+
+[[experience]]
+  title = "Camp Counselor and Jewelry Making Specialist"
+  company = "Evelyn Rubenstein Jewish Community Center of Houston"
+  company_url = ""
+  location = "Houston, TX"
+  date_start = "2017-06-01"
+  date_end = "2018-08-01"
+  description = """
+  * Planned and led first and second graders in daily jewelry making activities, adapting plans in real time according to the skill
+level of individual groups
+  * Assisted with daily activities including art, science, and sports and entertained campers between scheduled activities
+
   """
 +++
