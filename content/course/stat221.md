@@ -1,6 +1,6 @@
 ---
 title: 	Sampling Techniques (STAT221W)
-summary: #summary: "<strong>Project Highlight</strong>: Designed a study examining average weekly student dining spending using a regression estimator. <br><strong>Content</strong>: Exploration of estimation of population means, totals, proportions, variance, and ratios from a finite population using simple random, stratified, systematic, and clustered sampling methods."
+summary: "<strong>Project Highlight</strong>: Designed a study examining average weekly student dining spending using a regression estimator. <br><strong>Content</strong>: Exploration of estimation of population means, totals, proportions, variance, and ratios from a finite population using simple random, stratified, systematic, and clustered sampling methods."
 date: "2021-08-25T00:00:00Z"
 tags:
  - Stats
