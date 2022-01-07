@@ -1,6 +1,6 @@
 ---
 title: 	Nonparametric Inference (STAT219)
-summary: "Description will be included upon completion of the course in December 2021."
+summary: "<strong>Project Highlight</strong>: Examined relationships in characteristics of coins carried by French citizens using kernel density estimation, kernel smoothing, and local polynomial smoothing.<br><strong>Content</strong>: Applied introduction to nonparametric methods and modelling including hypothesis testing, inference, density estimation, and smoothing methods in R."
 date: "2021-08-25T00:00:00Z"
 tags:
  - Stats

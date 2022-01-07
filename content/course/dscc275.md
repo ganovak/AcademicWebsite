@@ -1,6 +1,6 @@
 ---
 title: 	Time Series Analysis and Forecasting in Data Science (DSCC275)
-summary: "Description will be included upon completion of the course in December 2021."
+summary: "<strong>Project Highlight</strong>: Build and train a recurrent neural network to predict country of origin based on a given last name by sequentially evaluating the characters.<br><strong>Content</strong>: Overview of practical aspects of time series data analysis including smoothing methods, ARIMA models and variations, and deep learning methods with feed-forward, recurrent, gated, and convolutional architectures in Python."
 date: "2021-08-25T00:00:00Z"
 tags:
  - DataSci
