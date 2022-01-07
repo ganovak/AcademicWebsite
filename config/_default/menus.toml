@@ -29,13 +29,13 @@
   weight = 60
 
 [[main]]
-  name = "Certifications"
-  url = "#certifications"
+  name = "Resume"
+  url = "files/GabriellaNovak_Resume.pdf"
   weight = 70
 
 [[main]]
-  name = "Resume"
-  url = "files/GabriellaNovak_Resume.pdf"
+  name = "Hobbies & Interests"
+  url = "#hobbies"
   weight = 80
 
 [[main]]

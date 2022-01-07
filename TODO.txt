@@ -1,6 +1,5 @@
 * Update README
 * Add hobby projects
-* Add additional math classes
 
 
 COMMON TASKS
