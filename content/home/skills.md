@@ -14,6 +14,10 @@ subtitle = ""
 # 
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
 
+[design]
+  # Choose how many columns the section has. Valid values: 1 or 2.
+  columns = "2"
+
 [[feature]]
   icon = "r-project"
   icon_pack = "fab"
