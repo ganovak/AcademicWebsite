@@ -1,7 +1,7 @@
-
 * Update README
-* Add other projects
-* Add LinkedIn
+* Add hobby projects
+* Add additional math classes
+
 
 COMMON TASKS
 * Update Resume: Place in static/files and change in config/_default/menus.toml

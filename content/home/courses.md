@@ -27,6 +27,10 @@ subtitle = ""
   [[content.filter_button]]
      name = "Statistics"
      tag = "Stats"
+     
+  [[content.filter_button]]
+     name = "Mathematics"
+     tag = "Math"
   
   [[content.filter_button]]
      name = "Data Science"
@@ -35,10 +39,6 @@ subtitle = ""
   [[content.filter_button]]
      name = "Computer Science"
      tag = "CompSci"
-  
-  [[content.filter_button]]
-     name = "Additional Skills"
-     tag = "AddSki"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
