@@ -55,4 +55,4 @@ email: ""
 
 ---
 
-Gabby Novak is an undergraduate researcher studying statistics, data science, and computer science. She is a skilled programmer with experience in R development.
+Gabby Novak is an undergraduate researcher and educator studying statistics, data science, and computer science. She is interested in guided inquiry and technology supported education and empowering students of all disciplines to develop technical competance that will serve them in higher education and their chosen career. 
