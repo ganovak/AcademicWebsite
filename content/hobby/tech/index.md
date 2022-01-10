@@ -34,8 +34,8 @@ In college, continued to pursue this interest both in my employment and choice o
 
 As for the extracurricular side of things, within a week of arriving on campus, I auditioned for and subsequently joined the Opposite of People Theater Company (TOOP) as a lighting and set designer. That semester I acted as set designer for a production of Conor McPherson's *The Weir*. As a member of the production team, I collaborated with the director to recognize her vision, proposed a set design using a 3D model developed in SketchUp, and directed work crews to construct, paint, and dress the approved design. I succeeded in creating the set using only materials the company had in storage, reallocating my budget to other designers.
 
-![Finalized set model in SketchUp]("/static/img/weir_model.jpg?raw=true "Finalized set model in SketchUp")
+![Finalized set model in SketchUp](/img/weir_model.jpg)
 
-![The Weir set on opening night]("/static/img/weir_pano.jpg?raw=true "Panorama of The Weir set on opening night")
+![Panorama of The Weir set on opening night](/img/weir_pano.jpg)
 
 In December, I was elected Technical Director of TOOP. In this executive board position, I was responsible for providing advice and guidance to designers working on TOOP productions, organizing and directing work calls, load ins, and strikes, facilitating communication between members of the production team, managing company storage, advancing club improvement projects, and implementing the company's technical apprenticeship program in collaboration with the production stage manager.
