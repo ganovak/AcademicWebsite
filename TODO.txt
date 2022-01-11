@@ -1,5 +1,4 @@
 * Update README
-* Add hobby projects
 
 
 COMMON TASKS
