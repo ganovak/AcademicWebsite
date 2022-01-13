@@ -38,10 +38,11 @@ date_format = "Jan 2006"
   company_url = ""
   location = "Rochester, NY"
   date_start = "2019-01-01"
-  date_end = "2020-12-31"
+  date_end = ""
   description = """
-  * Strengthened students’ grasp of material taught in lecture including R coding and applied statistical methods
-  * Assisted students in understanding errors and debugging code during lecture and additional office hours
+  * Strengthen students’ grasp of material taught in lecture including R coding and applied statistical methods
+  * Assist students in understanding errors and debugging code during lecture and additional office hours
+  * Grade and provide thorough feedback on student work
   """
 
 [[experience]]
