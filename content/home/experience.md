@@ -87,17 +87,17 @@ date_format = "Jan 2006"
 *See [UT Health Tag](#projects) for further project details*
   """
 
-[[experience]]
-  title = "Private Statistics Tutor"
-  company = " "
-  company_url = ""
-  location = "Rochester, NY"
-  date_start = "2019-04-01"
-  date_end = "2019-06-01"
-  description = """
-  * Developed and implemented lesson plans to assist a student in-poor-standing in successful final exam preparation
-  * Recommended for position by professor based on past success with students as a teaching assistant
-  """
+# [[experience]]
+#   title = "Private Statistics Tutor"
+#   company = " "
+#   company_url = ""
+#   location = "Rochester, NY"
+#   date_start = "2019-04-01"
+#   date_end = "2019-06-01"
+#   description = """
+#   * Developed and implemented lesson plans to assist a student in-poor-standing in successful final exam preparation
+#   * Recommended for position by professor based on past success with students as a teaching assistant
+#   """
 
 # [[experience]]
 #   title = "Event Support Basic Technician"

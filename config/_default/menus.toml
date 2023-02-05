@@ -29,15 +29,15 @@
 #  url = "#skills"
 #  weight = 45
 
-[[main]]
-  name = "Talks"
-  url = "#talks"
-  weight = 50
+#[[main]]
+#  name = "Talks"
+#  url = "#talks"
+#  weight = 50
 
-[[main]]
-  name = "Coursework"
-  url = "#courses"
-  weight = 60
+# [[main]]
+#  name = "Coursework"
+#  url = "#courses"
+#  weight = 60
 
 [[main]]
   name = "Resume"

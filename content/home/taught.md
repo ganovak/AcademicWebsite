@@ -33,10 +33,6 @@ date_format = "Jan 2006"
   date_start = "2022-08-01"
   date_end = ""
   description = """
-  
-  Through this course, students will learn about computer organization, hardware and software, file management, and computational thinking – the basis of computer science.  Students will learn to break down, analyze and develop logic-based solutions to complex problems, to recognize patterns, create computational artifacts, and use algorithms and flowcharts in the development of computer applications.  Subsequent technology courses will further develop skills taught in Principles of Technology and Design.
-  
-  
   Principles of Technology and Design introduces students to the principles of computational thinking and algorithmic design as they continue to build technical competence and problem solving skills. With an emphasis on the power and limitations of computing, students learn to decompose and reformulate problems to develop logic-based, computationally executable solutions which are implemented in Python.
   """
   
