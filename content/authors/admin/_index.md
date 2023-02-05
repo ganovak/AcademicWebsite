@@ -47,7 +47,7 @@ education:
 # - Technical theater
 
 # Short bio (displayed in user profile at end of posts)
- bio: "Math and computer science educator empowering students to develop critical thinking and problem solving skills and technical competence"
+ bio: Math and computer science educator empowering students to develop critical thinking and problem solving skills and technical competence
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -55,8 +55,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 
----
-
 # Gabby Novak is an undergraduate researcher and educator studying statistics, data science, and computer science. She is interested in guided inquiry and technology supported education and empowering students of all disciplines to develop technical competance that will serve them in higher education and their chosen career. 
 
+---
 The environment that best supports both students’ learning and well-being builds up their confidence in their abilities and agency. Each student should be nurtured, met where they are at, and their individual accomplishments celebrated by both authority figures and peers. The goal is for students to gain confidence not only in the material, but in their ability to apply and extend their knowledge, to problem solve, and to learn the skills they will need throughout their lives.
