@@ -37,8 +37,7 @@ social:
 # Education
 education:
   courses: 
-    - course: B.S. in Statistics, Minor in Computer Science
-      url: "files/BS_Diploma.pdf"
+    - course: [B.S. in Statistics, Minor in Computer Science](files/BS_Diploma.pdf)
       institution: University of Rochester, Rochester, NY
       year: 2022
 
