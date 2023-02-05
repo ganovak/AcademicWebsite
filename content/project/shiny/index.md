@@ -2,8 +2,8 @@
 title: Learning Shiny
 summary: Learning to create Shiny apps (applications based in R functionality and syntax) to be used as introductory statistics learning aids
 tags:
+ - Education
  - Personal
- - R
  
 date: "2022-01-03T00:00:00Z"
 

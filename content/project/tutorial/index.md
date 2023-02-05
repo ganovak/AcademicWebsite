@@ -2,8 +2,8 @@
 title: R 4 Humans
 summary: Continuous development of accessible tutorials for R using both base R functions and packages.
 tags:
+ - Education
  - Personal
- - R
  
 # date: "2016-04-27T00:00:00Z"
 

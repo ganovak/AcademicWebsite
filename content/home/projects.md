@@ -22,24 +22,32 @@ subtitle = ""
   filter_default = 0
   
   [[content.filter_button]]
-     name = "All"
-     tag = "*"
-     
-  [[content.filter_button]]
-     name = "R"
-     tag = "R"
-     
-  [[content.filter_button]]
-     name = "NASA"
-     tag = "NASA"
+     name = "Education"
+     tag = "Education"
      
   [[content.filter_button]]
      name = "Personal"
      tag = "Personal"
-
+     
   [[content.filter_button]]
-     name = "UT Health"
-     tag = "UT Health"
+     name = "Research"
+     tag = "Research"
+  
+  [[content.filter_button]]
+     name = "All"
+     tag = "*"
+     
+#  [[content.filter_button]]
+#     name = "R"
+#     tag = "R"
+     
+#  [[content.filter_button]]
+#     name = "NASA"
+#     tag = "NASA"
+     
+# [[content.filter_button]]
+#     name = "UT Health"
+#     tag = "UT Health"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.

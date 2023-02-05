@@ -2,9 +2,7 @@
 title: Opioid-Related Death in Mass
 summary: Predictive spatial analysis of zip code-level opioid-related death rates in Massachusetts, USA
 tags:
- - Geospatial Analysis
- - UT Health
- - R
+ - Research
 date: "2019-07-23T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

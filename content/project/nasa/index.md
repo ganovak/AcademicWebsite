@@ -2,8 +2,7 @@
 title: Defining Best Practices for Reproducible Research
 summary: Recommendations for practices and tools (including a novel R package) for increasing reproducibility at Johnson Space Center's Biomedical Research and Environmental Sciences Division labs 
 tags:
- - NASA
- - R
+ - Research
 date: "2020-08-06T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

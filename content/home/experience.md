@@ -70,7 +70,7 @@ date_format = "Jan 2006"
   * Developed a R package for internal NASA use to support reproducibility efforts
   * Reviewed computational tools to support reproducible work and provided recommendations based on insight from Millennia Young, PhD regarding lab procedure and culture
   
-*See [NASA Tag](#projects) for further project details*
+*See [Research tag](#projects) for further project details*
   """
 
 [[experience]]
@@ -84,7 +84,7 @@ date_format = "Jan 2006"
   * Processed complex survey data, fit models, and created figures and maps for multiple geospatial analysis projects in collaboration with Cici Bauer, PhD and a team of graduate students
   * Presented on project status and shared techniques with other team members at weekly work group meetings
 
-*See [UT Health Tag](#projects) for further project details*
+*See [Research tag](#projects) for further project details*
   """
 
 # [[experience]]

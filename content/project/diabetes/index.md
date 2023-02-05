@@ -3,9 +3,7 @@ title: Diabetes Prevalence in Brownsville, Texas
 summary: Bayesian spatial modeling and post-stratification for Census Tract-level prevalence estimates.
 date: "2019-06-03T00:00:00Z"
 tags:
- - Geospatial Analysis
- - UT Health
- - R
+ - Research
  
 # Optional external URL for project (replaces project detail page).
 external_link: ""
