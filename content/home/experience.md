@@ -19,17 +19,30 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
-  title = "Event Support Senior Technician"
+  title = "Upper School Math & Technology Teaching Assistant"
+  company = "The Emery/Weiner School"
+  company_url = "https://www.emeryweiner.org/"
+  location = "Houston, TX"
+  date_start = "2022-08-01"
+  date_end = ""
+  description = """
+  * Develop and implement curriculum to engage students in data analysis employing data science and traditional statistical skills in tandem in a senior-level advanced statistics class
+  * Collaborate with colleagues to design and execute lesson plans for all high school levels to facilitate the development of computational thinking, define responsible use of technology, and design and implement algorithms in both Python and Java
+  * Advise and support 12 freshman by acting as a resource, facilitating experiential and service learning opportunities, and leading programming to holistically support students in both academic and social-emotional spheres
+  """
+  
+[[experience]]
+  title = "Event Support Basic / Senior Technician"
   company = "University of Rochester"
   company_url = ""
   location = "Rochester, NY"
-  date_start = "2019-04-01"
-  date_end = ""
+  date_start = "2018-08-01"
+  date_end = "2022-05-01"
   description = """
-  * Operate all technical aspects of university events with special expertise in lighting
-  * Plan and program aesthetically pleasing lighting in collaboration with clients that compliments their production
-  * Lead and provide training to technicians in equipment set up, strike, and use and client interaction
-  * Manage technical difficulties and client requests effectively and efficiently
+  * Operated all technical aspects of university events with special expertise in lighting
+  * Planed and programmed aesthetically pleasing lighting in collaboration with clients that compliments their production
+  * Led and provided training to technicians in equipment set up, strike, and use and client interaction
+  * Managed technical difficulties and client requests effectively and efficiently
   """
 
 [[experience]]
@@ -38,11 +51,11 @@ date_format = "Jan 2006"
   company_url = ""
   location = "Rochester, NY"
   date_start = "2019-01-01"
-  date_end = ""
+  date_end = "2022-05-01"
   description = """
-  * Strengthen students’ grasp of material taught in lecture including R coding and applied statistical methods
-  * Assist students in understanding errors and debugging code during lecture and additional office hours
-  * Grade and provide thorough feedback on student work
+  * Strengthened students’ grasp of material taught in lecture including R coding and applied statistical methods
+  * Assisted students in understanding errors and debugging code during lecture and additional office hours
+  * Graded and provided thorough feedback on student work
   """
 
 [[experience]]
@@ -57,7 +70,7 @@ date_format = "Jan 2006"
   * Developed a R package for internal NASA use to support reproducibility efforts
   * Reviewed computational tools to support reproducible work and provided recommendations based on insight from Millennia Young, PhD regarding lab procedure and culture
   
-*See [NASA Tag](#projects) for futher project details*
+*See [NASA Tag](#projects) for further project details*
   """
 
 [[experience]]
@@ -86,29 +99,29 @@ date_format = "Jan 2006"
   * Recommended for position by professor based on past success with students as a teaching assistant
   """
 
-[[experience]]
-  title = "Event Support Basic Technician"
-  company = "University of Rochester"
-  company_url = ""
-  location = "Rochester, NY"
-  date_start = "2018-08-01"
-  date_end = "2019-04-01"
-  description = """
-  * Operated sound, lighting, and projection equipment during concerts and other special events and presentations
-  * Planned and executed equipment and furniture set up and strike
-  * Completed basic technical training and continued training on updated equipment
-  """
+# [[experience]]
+#   title = "Event Support Basic Technician"
+#   company = "University of Rochester"
+#   company_url = ""
+#   location = "Rochester, NY"
+#   date_start = "2018-08-01"
+#   date_end = "2019-04-01"
+#   description = """
+#   * Operated sound, lighting, and projection equipment during concerts and other special events and presentations
+#   * Planned and executed equipment and furniture set up and strike
+#   * Completed basic technical training and continued training on updated equipment
+#   """
 
-[[experience]]
-  title = "Camp Counselor and Jewelry Making Specialist"
-  company = "Evelyn Rubenstein Jewish Community Center of Houston"
-  company_url = ""
-  location = "Houston, TX"
-  date_start = "2017-06-01"
-  date_end = "2018-08-01"
-  description = """
-  * Planned and led first and second graders in daily jewelry making activities, adapting plans in real time according to the skill
-level of individual groups
-  * Assisted with daily activities including art, science, and sports and entertained campers between scheduled activities
-  """
+# [[experience]]
+#   title = "Camp Counselor and Jewelry Making Specialist"
+#   company = "Evelyn Rubenstein Jewish Community Center of Houston"
+#   company_url = ""
+#   location = "Houston, TX"
+#   date_start = "2017-06-01"
+#   date_end = "2018-08-01"
+#   description = """
+#   * Planned and led first and second graders in daily jewelry making activities, adapting plans in real time according to the skill
+# level of individual groups
+#   * Assisted with daily activities including art, science, and sports and entertained campers between scheduled activities
+#   """
 +++

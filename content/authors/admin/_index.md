@@ -13,13 +13,15 @@ superuser: true
 
 # Organizations/Affiliations
 organizations:
+- name: The Emery/Weiner School
+  url: "https://www.emeryweiner.org"
 - name: University of Rochester
-  url: ""
+  url: "https://www.rochester.edu"
 
 social:
-- icon: orcid
-  icon_pack: fab
-  link: https://orcid.org/0000-0002-1674-9396
+#- icon: orcid
+#  icon_pack: fab
+#  link: https://orcid.org/0000-0002-1674-9396
 - icon: github
   icon_pack: fab
   link: https://github.com/ganovak
@@ -37,7 +39,7 @@ education:
   courses: 
     - course: B.S. in Statistics, Minor in Computer Science
       institution: University of Rochester, Rochester, NY
-      year: Anticipated 2022
+      year: 2022
 
 #interests:
 # - R programming
