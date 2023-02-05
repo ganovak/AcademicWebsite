@@ -40,9 +40,14 @@
 #  weight = 60
 
 [[main]]
+  name = "PD"
+  url = "#pd"
+  weight = 70
+
+[[main]]
   name = "Resume"
   url = "files/01_2023_Resume.pdf"
-  weight = 70
+  weight = 100
 
 [[main]]
   name = "Hobbies & Interests"
