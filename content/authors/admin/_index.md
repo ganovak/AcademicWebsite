@@ -47,7 +47,7 @@ education:
 # - Technical theater
 
 # Short bio (displayed in user profile at end of posts)
- bio: Math and computer science educator empowering students to develop critical thinking and problem solving skills and technical competence 
+ bio: "Math and computer science educator empowering students to develop critical thinking and problem solving skills and technical competence"
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
